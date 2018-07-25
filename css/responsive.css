@@ -13,24 +13,38 @@
         display: block;
     }
     
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+
     #skills figure {
         flex-basis: 50%;
         margin: 10px 0;
     }
-    
+   
     #portfolio .background {
         flex-basis: 100%;
+        margin: 5px;
+    }
+    #form {
+        margin-top: 25px;
+    }
+    
+    #contact {
+        text-align: center;
     }
 }
 
 @media all and (max-width: 768px) {
     #about figure,
-    #about .flex-container-inner,
-    .contact-inner {
+    #about .my-photo,
+    .my-text {
         flex-basis: 100%;
+        flex-direction: column;
     }
     
-    .contact-inner {
+    .my-text{
         text-align: center;
         margin: 10px 0;
     }
