@@ -91,10 +91,20 @@ section {
 /* skills */
 #skills {
     text-align: center;
+
 }
 
-#skills .flex-container {
+#skills .container-fluid {
+    display: flex;
     justify-content: center;
+    align-self: center;
+}
+
+#skills-icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
 }
 
 #skills figure {
