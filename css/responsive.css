@@ -1,0 +1,37 @@
+@media all and (max-width: 992px) {
+    #main-nav label {
+        display: block;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav input:checked + ul {
+        display: block;
+    }
+    
+    #skills figure {
+        flex-basis: 50%;
+        margin: 10px 0;
+    }
+    
+    #portfolio .background {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #about figure,
+    #about .flex-container-inner,
+    .contact-inner {
+        flex-basis: 100%;
+    }
+    
+    .contact-inner {
+        text-align: center;
+        margin: 10px 0;
+    }
+}

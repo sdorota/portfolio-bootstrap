@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap-4.1.1-dist/css/bootstrap.min.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&amp;subset=latin-ext" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav id="main-nav">
+        <label for="menu">menu</label>
+        <input type="checkbox" id="menu">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">o mnie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">umiejętności</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- nav end -->
+
+    <!-- header start -->
+    <header id="main-header">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Jan
+                    <span>Nowak</span>
+                </h1>
+                <h2 class="card-text">Front End Developer</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- about start -->
+    <section id="about" class="container-fluid">
+        <h2>O
+            <span>mnie</span>
+        </h2>
+        <div class="row">
+            <div class="col-6">
+                <figure>
+                    <img src="img/jan-nowak.jpg" alt="Jan Nowak">
+                </figure>
+            </div>
+            <div class="col-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptas, hic animi, est placeat sunt, totam
+                    ullam voluptatibus rerum unde quaerat eveniet dignissimos laboriosam magni cum architecto quos consequuntur
+                    eius.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- skills start -->
+    <section id="skills">
+        <h2>
+            Moje
+            <span>umiejętności</span>
+        </h2>
+        <div class="flex-container">
+            <figure>
+                <img src="icons/css3.png" alt="css3">
+                <figcaption>css3</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/html5.png" alt="html5">
+                <figcaption>html5</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/jquery.png" alt="jquery">
+                <figcaption>jQuery</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/js.png" alt="js">
+                <figcaption>javascript</figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- skills end -->
+
+    <!-- portfolio start -->
+
+    <section id="portfolio">
+        <h2>
+            Moje
+            <span>portfolio</span>
+        </h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 background" id="portfolio1">
+                    <div class="mask">
+                        <div class="border">
+                            <div class="content">
+                                <p>lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ex.</p>
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 background" id="portfolio2">
+                    <div class="mask">
+                        <div class="border">
+                            <div class="content">
+                                <p>lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ex.</p>
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 background" id="portfolio3">
+                    <div class="mask">
+                        <div class="border">
+                            <div class="content">
+                                <p>lorem ipsum</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ex.</p>
+                                <i class="fas fa-link"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio start -->
+
+    <!-- contact start -->
+
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>
+                        Jan
+                        <span>Nowak</span>
+                    </h2>
+                    <address>
+                        ul. Mostowa 6/13
+                        <br> 00-000 Kraków
+                        <br>
+                        <a href="">jan-nowak@gmail.com</a>
+                    </address>
+                    <div class="social-icons">
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6" id="form">
+                    <form action="">
+                        <input type="text">
+                        <input type="text">
+                        <textarea name="" id=""></textarea>
+                        <input type="submit" value="wyślij">
+                    </form>
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>
