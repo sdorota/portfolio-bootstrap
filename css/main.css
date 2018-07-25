@@ -76,10 +76,10 @@ section {
     text-align: center;
     background-color: #f9fcfe;
     flex-wrap: wrap;
+    margin:0;
 }
 
 #about figure img {
-    max-width: 300px;
     border: 10px solid #fff;
     border-radius: 5px;
 }
@@ -107,7 +107,7 @@ section {
 
 }
 
-#skills figure {
+#skills>figure {
     margin: 0 20px;
 }
 

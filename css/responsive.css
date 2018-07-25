@@ -15,10 +15,13 @@
     
     .about-me {
         flex-direction: column;
-        align-items: center;
     }
 
-    #skills figure {
+    .about-me .my-photo {
+    align-self: center;
+    }
+    
+    #skills>figure {
         flex-basis: 50%;
         margin: 10px 0;
     }
@@ -46,6 +49,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
+        align-self: center;
     }
     
     .my-text{
