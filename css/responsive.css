@@ -38,8 +38,8 @@
 
 @media all and (max-width: 768px) {
     #about figure,
-    #about .my-photo,
-    .my-text {
+    #about .my-text {
+        display: grid;
         flex-basis: 100%;
         flex-direction: column;
     }
