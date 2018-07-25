@@ -116,6 +116,10 @@ section {
     text-align: center;
 }
 
+.portfolio-all {
+    display: flex;
+}
+
 #portfolio .background {
     height: 350px;
     background-size: cover;

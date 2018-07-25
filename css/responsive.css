@@ -24,9 +24,12 @@
     }
    
     #portfolio .background {
-        flex-basis: 100%;
         margin: 5px;
     }
+    .portfolio-all {
+        justify-content: center;
+    }
+
     #form {
         margin-top: 25px;
     }
@@ -39,9 +42,10 @@
 @media all and (max-width: 768px) {
     #about figure,
     #about .my-text {
-        display: grid;
-        flex-basis: 100%;
+        display: flex;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
     }
     
     .my-text{
