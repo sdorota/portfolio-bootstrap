@@ -82,6 +82,7 @@ section {
 #about figure img {
     border: 10px solid #fff;
     border-radius: 5px;
+    max-width: 300px;
 }
 
 #about p {

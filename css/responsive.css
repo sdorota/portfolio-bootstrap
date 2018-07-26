@@ -15,10 +15,15 @@
     
     .about-me {
         flex-direction: column;
+        align-items: center;
     }
 
     .about-me .my-photo {
     align-self: center;
+    }
+
+    #about p {
+        text-align: center;
     }
     
     #skills>figure {
